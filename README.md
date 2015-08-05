@@ -18,22 +18,13 @@ you can double click and select the word too.
 	var app = angular.module('yourApp',['highlightword'])
 ```
 
-### Simple Usage
-```html
-	<div>
-		<div highlight-text>
-		  Try selecting letters from middle of the word. this component will select the complete word and highlight for you.
-		</div>
-	</div>
-```
-
-### Adavance Usage
 
 ```html
 	<div>
 		<div highlight-text event-name="highlight" emit-selection="true" clear-interval="1000">
 		  Try selecting letters from middle of the word. this component will select the complete word and highlight for you.
 		</div>
+		you selected {{word}}
 	</div>
 ```
 
