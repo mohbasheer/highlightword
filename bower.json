@@ -1,0 +1,16 @@
+{
+  "name": "highlightword",
+  "version": "0.0.0",
+  "homepage": "https://github.com/sspbasheer/highlightword",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "highlightword": "*"
+  }
+}

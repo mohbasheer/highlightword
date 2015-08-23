@@ -1,0 +1,12 @@
+body{
+  padding:20px;
+}
+.search{
+  margin-left:10px;
+}
+.selection-result{
+	padding-top: 50px;
+}
+.selection-result span{
+	font-weight: bold;
+}

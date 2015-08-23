@@ -1,1 +1,24 @@
-Test Pages
+<!DOCTYPE html>
+<html ng-app="highlightwordDemo">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="demo.css" />
+    <script src="/bower_components/angular/angular.js"></script>
+    <script src="/bower_components/highlightword/highlightword.js"></script>
+    <script src="app.js "></script>
+    <script src="controller.js "></script>
+    <meta charset=utf-8 />
+    <title>Highlightword Demo</title>
+</head>
+
+<body ng-controller="highlightctrl">
+   <h1>Try selecting any letters in one word or with in two word or more words</h1>
+<div highlight-text emit-selection="true" event-name="highlightEvent">
+    The human species' use of technology began with the conversion of natural resources into simple tools. The prehistoric discovery of how to control fire and the later Neolithic Revolution increased the available sources of food and the invention of the wheel helped humans to travel in and control their environment. Developments in historic times, including the printing press, the telephone, and the Internet, have lessened physical barriers to communication and allowed humans to interact freely on a global scale. The steady progress of military technology has brought weapons of ever-increasing destructive power, from clubs to nuclear weapons.
+</div>
+<div class="selection-result">
+    you complete selection <span>{{selectedText}}</span>
+</div>
+</body>
+
+</html>
