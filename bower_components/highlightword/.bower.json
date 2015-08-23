@@ -1,0 +1,31 @@
+{
+  "name": "highlightword",
+  "main": "highlightword.js",
+  "homepage": "https://github.com/sspbasheer/highlightword",
+  "description": "Highlight complete word even if the user select incomplete word",
+  "keywords": [
+    "javascript",
+    "Angular",
+    "Highlight",
+    "word",
+    "select",
+    "word"
+  ],
+  "dependencies": {
+    "angular": "^1.3.0"
+  },
+  "authors": [
+    "Mohammed Basheer"
+  ],
+  "license": "MIT",
+  "_release": "17527631d6",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "17527631d697279f616d79a11050e036e9d830bf"
+  },
+  "_source": "git://github.com/sspbasheer/highlightword.git",
+  "_target": "*",
+  "_originalSource": "highlightword",
+  "_direct": true
+}
